@@ -1,0 +1,93 @@
+body{
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(135deg,#e6f4ff,#ffffff);
+  text-align:center;
+  color:#003366;
+}
+
+header{
+  background:#3bb4e5;
+  color:white;
+  padding:30px;
+}
+
+header h1{
+  margin:0;
+  font-size:3rem;
+}
+
+.container{
+  max-width:900px;
+  margin:auto;
+  padding:40px 20px;
+}
+
+.big{
+  font-size:3rem;
+  font-weight:bold;
+  color:#0b5ed7;
+  margin:20px 0;
+}
+
+.card{
+  background:#3bb4e5;
+  color:white;
+  border-radius:20px;
+  padding:25px;
+  margin:25px 0;
+  box-shadow:0 10px 20px rgba(0,0,0,.15);
+}
+
+button{
+  background:#ffd43b;
+  border:none;
+  border-radius:15px;
+  padding:20px 35px;
+  font-size:1.5rem;
+  font-weight:bold;
+  cursor:pointer;
+  transition:transform .2s, box-shadow .2s;
+}
+
+button:hover{
+  transform:scale(1.05);
+  box-shadow:0 8px 15px rgba(0,0,0,.2);
+}
+
+.counter{
+  font-size:2rem;
+  margin-top:20px;
+  color:#0b5ed7;
+  font-weight:bold;
+}
+
+.message{
+  margin-top:20px;
+  font-size:1.2rem;
+  min-height:30px;
+}
+
+footer{
+  margin-top:40px;
+  padding:20px;
+  font-size:.9rem;
+  color:#555;
+}
+.strong{
+  font-weight:bold;
+  color:#20539f;
+}
+.cubo{
+  background:#3bb4e5;
+  color:white;
+  border-radius:20px;
+  padding:25px;
+  margin:25px 0;
+} 
+.link{
+  position: relative;
+  top: -200px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
